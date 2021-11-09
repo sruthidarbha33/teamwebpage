@@ -1,0 +1,49 @@
+<DOCTYPE! html>
+    <html lang="en">
+    <meta charset="UTF-8">
+
+    <head>
+        <title>TEAM LIME</title>
+        <script src="teamwebpage.js" defer></script>
+        <style>
+            body {
+                text-align: center;
+            }
+
+            h3 {
+                width: auto;
+                font-size: 30px;
+            }
+
+            img {
+                width: 30%;
+            }
+
+            h1 {
+                font-size: 60px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="https://cdn.shopify.com/s/files/1/0092/8012/files/pink-dolphin-waves-logo_1c277ccc-ce96-4c87-a7ff-375b3d55d5fd_compact.png?11911121419664353771"
+            alt="pink dolphin">
+        <h1 style="color: pink">
+            <pink>Pink Dolphins</pink>
+        </h1>
+        <h2>Team Members:</h2>
+        <h3><a href="https://sms761.github.io/">Sejal's Page</a></h3>
+        <img src="https://i.pinimg.com/236x/02/6a/cc/026acca08fb7beea6bd4ecd430e312bd.jpg" alt="sejal" id="Sejal1">
+        <div id="sejaldescription"></div>
+        <h3><a href="https://github.com/bhaktipatel31">Bhakti's Page</a></h3>
+        <img src="https://i.pinimg.com/564x/40/e6/29/40e629ddb31aedacdf2c5e94cfc7e23a.jpg" alt="Youko" width="150"
+            height="150" id="Bhakti1">
+        <div id="bhaktidescription"></div>
+        <h3><a href="https://github.com/sruthidarbha33">Sruthi's Page</a></h3>
+        <img src="https://www.nicepng.com/maxp/u2w7a9q8e6w7q8q8/" alt="Sruthi's Pic1" width=250px id="Sruthi1">
+        <div id="sruthidescription"></div>
+        <!-- add more -->
+        <button onclick="reset()">Reset</button>
+    </body>
+
+    </html>
